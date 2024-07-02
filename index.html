@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel Form for trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <br>
+
+            <label for="sectionida">
+                <input type="radio" value="section A" name="section" id="sectionida">Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section B" name="section" id="sectionidb">Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section B" name="section" id="sectionidc">Section C
+            </label>
+            <br>
+            <br>
+            <input type="checkbox" name="foodcanteen" id="foodcanteen" class="red">
+            <label for="foodcanteen">Want Food Canteen Card</label>
+            <br>
+            <br>
+            <textarea name="explain" id="explain" placeholder="Explain why you Want to join" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <select name="location" id="location" >
+                <option value="loc">Select Your Location</option>
+                <option value="HAR">Haridwar</option>
+                <option value="ror">Roorkee</option>
+                <option value="bah">Bahadrabad</option>
+                <option value="jaw">Jawalapur</option>
+                <option value="sah">Saharanpur</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
